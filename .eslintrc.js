@@ -31,6 +31,7 @@ module.exports = {
         'indent': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/no-var-requires': 0,
+        "@typescript-eslint/ban-ts-comment": "off",
         // 'vue/script-indent': [
         //     'error',
         //     4,
