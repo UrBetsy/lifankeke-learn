@@ -6,5 +6,13 @@ export default {
             path: '',
             component: () => import(/* webpackChunkName: "learn" */ './index.vue'),
         },
+        {
+            path: 'canvas',
+            component: () => import(/* webpackChunkName: "learn" */ './canvas.vue'),
+        },
+        {
+            path: 'class-name',
+            component: () => import(/* webpackChunkName: "learn" */ './class-name.vue'),
+        },
     ],
 };

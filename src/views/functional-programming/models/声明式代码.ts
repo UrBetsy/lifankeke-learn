@@ -20,6 +20,4 @@ export function useModel() {
 
     console.log('命令式', makes);
     console.log('声明式', makes2);
-
-    return {};
 }

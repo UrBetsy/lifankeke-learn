@@ -2,6 +2,8 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import Home from '@/views/home/index.vue';
 import LearnRouter from '@/views/learn/router';
 import DesignPartten from '@/views/design-partten/router';
+import previewImage from '@/views/preview-img/router';
+import fpRouter from '@/views/functional-programming/router';
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -11,6 +13,8 @@ const routes: Array<RouteRecordRaw> = [
     },
     LearnRouter,
     DesignPartten,
+    previewImage,
+    fpRouter,
 ];
 
 const router = createRouter({

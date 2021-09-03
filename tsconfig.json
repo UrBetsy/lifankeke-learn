@@ -33,7 +33,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-, "src/utils/函数式编程/纯函数.js", "src/views/learn/models/curry.ts"  ],
+, "src/utils/函数式编程/纯函数.js", "src/views/functional-programming/models/curry.ts"  ],
   "exclude": [
     "node_modules"
   ]
